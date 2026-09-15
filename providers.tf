@@ -8,5 +8,6 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1" # Replace with your preferred AWS region
+  region = var.aws_region
+  profile = "Luka_SA_Dev" # Replace with your preferred AWS region
 }
